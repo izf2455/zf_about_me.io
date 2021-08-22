@@ -1,0 +1,70 @@
+{
+    "header": [
+        " *   ",
+        " *   文件描述：本文件为网页资源信息",
+        " *   success字段为下载保存成功的资源;failures字段则为下载保存失败的资源URL",
+        " *   success字段为标准树结构，每一层资源父子关系、URL和保存路径清晰明了",
+        " *   本文件仅为记录检测到的网页资源以便于调试，非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq",
+        " *   "
+    ],
+    "success": [
+        {
+            "url": "https://www.qiln.cn/",
+            "path": "index.html",
+            "children": [
+                {
+                    "url": "https://www.qiln.cn/js/modernizr.js",
+                    "path": "js/modernizr.js"
+                },
+                {
+                    "url": "https://www.qiln.cn/js/jquery-2.1.4.js",
+                    "path": "js/jquery-2.1.4.js"
+                },
+                {
+                    "url": "https://www.qiln.cn/js/snap.svg-min.js",
+                    "path": "js/snap.svg-min.js"
+                },
+                {
+                    "url": "https://www.qiln.cn/js/main.js",
+                    "path": "js/main.js"
+                },
+                {
+                    "url": "https://www.qiln.cn/css/reset.css",
+                    "path": "css/reset.css"
+                },
+                {
+                    "url": "https://www.qiln.cn/css/style.css",
+                    "path": "css/style.css",
+                    "children": [
+                        {
+                            "url": "https://cdn.jsdelivr.net/gh/Anemones/qiln/images/img-1.png",
+                            "path": "images/img-1.png"
+                        },
+                        {
+                            "url": "https://cdn.jsdelivr.net/gh/Anemones/qiln/images/img-2.png",
+                            "path": "images/img-2.png"
+                        },
+                        {
+                            "url": "https://cdn.jsdelivr.net/gh/Anemones/qiln/images/img-3.png",
+                            "path": "images/img-3.png"
+                        },
+                        {
+                            "url": "https://cdn.jsdelivr.net/gh/Anemones/qiln/images/img-4.png",
+                            "path": "images/img-4.png"
+                        },
+                        {
+                            "url": "https://www.qiln.cn/img/cd-icon-navigation.svg",
+                            "path": "images/cd-icon-navigation.svg"
+                        }
+                    ]
+                },
+                {
+                    "url": "https://www.qiln.cn/favicon.ico",
+                    "path": "favicon.ico"
+                }
+            ]
+        }
+    ],
+    "failures": []
+}
